@@ -10,7 +10,10 @@ $(document).ready(function() {
     var size = parseInt($("#size").val());
     var crust = parseInt($("#crust").val());
     var cheese = parseInt($("#cheese").val());
-    var totalCost = size + crust + cheese;
+    var sauce = parseInt($("#sauce").val());
+    var meat = parseInt($("#meat").val());
+    var veggie = parseInt($("#veggie").val());
+    var totalCost = size + crust + cheese + sauce + meat + veggie;
 
     $("#pizzaOrder").text(totalCost);
   });
