@@ -8,7 +8,10 @@ $(document).ready(function() {
     event.preventDefault();
 
     var size = parseInt($("#size").val());
+    var crust = parseInt($("#crust").val());
+    var cheese = parseInt($("#cheese").val());
+    var totalCost = size + crust + cheese;
 
-    $("#pizzaOrder").text(size);
+    $("#pizzaOrder").text(totalCost);
   });
 });
