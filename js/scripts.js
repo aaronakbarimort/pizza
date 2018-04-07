@@ -1,6 +1,7 @@
 // Business Logic
-
-
+function Pizza(size) {
+  this.size = size;
+}
 
 // User Interface Logic
 $(document).ready(function() {
